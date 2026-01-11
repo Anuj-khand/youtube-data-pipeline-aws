@@ -23,11 +23,11 @@ Architecture and execution screenshots are available in the screenshots/ folder.
 **Cloud Platform**: AWS
 
 **Services**:
-AWS Lambda
-Amazon S3
-AWS Glue (Spark ETL)
-Amazon Athena
-AWS IAM
+AWS Lambda,
+ Amazon S3,
+ AWS Glue (Spark ETL),
+ Amazon Athena,
+ AWS IAM
 
 **Data Format**: JSON → Parquet
 
