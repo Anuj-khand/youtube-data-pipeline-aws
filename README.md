@@ -20,15 +20,20 @@ Architecture and execution screenshots are available in the screenshots folder.
 **🧰 Tech Stack Used**
 
 **Programming Language**: Python
+
 **Cloud Platform**: AWS
+
 **Services**:
 AWS Lambda,
  Amazon S3,
  AWS Glue (Spark ETL),
  Amazon Athena,
  AWS IAM
+
 **Data Format**: JSON → Parquet
+
 **API**: YouTube Data API v3
+
 
 
 **🔄 Data Pipeline Explanation**
@@ -64,7 +69,9 @@ video_id,
 **🧪 Sample Athena Query**
 
 SELECT title, view_count, like_count
+
 FROM youtube_db.parquet_data
+
 ORDER BY view_count DESC
 LIMIT 10;
 
