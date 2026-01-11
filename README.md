@@ -69,3 +69,15 @@ video_id,
  Top viewed videos,
  Most liked videos,
  Recent trending content
+
+
+**🧪 Sample Athena Query**
+
+SELECT title, view_count, like_count
+
+FROM youtube_db.parquet_data
+
+ORDER BY view_count DESC
+
+LIMIT 10;
+
