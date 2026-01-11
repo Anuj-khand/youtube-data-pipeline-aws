@@ -80,6 +80,28 @@ ORDER BY view_count DESC
 LIMIT 10;
 
 
+## 📊 Dashboard (Amazon QuickSight)
+
+The final analytics layer is built using *Amazon QuickSight*, connected to Parquet data stored in Amazon S3 and queried via Amazon Athena.
+
+### KPIs
+- Total Videos
+- Total Engagement
+- Average Like Rate (%)
+
+### Visualizations
+- Top videos by view count
+- Engagement score comparison by video
+- Audience appreciation analysis
+- Like vs Comment distribution
+
+### Tools Used
+- Amazon QuickSight
+- Amazon Athena
+- AWS Glue Data Catalog
+- Amazon S3 (Parquet format)
+
+
 **📊 Output**
 
 * Optimized Parquet files stored in S3
@@ -107,10 +129,4 @@ LIMIT 10;
 
 
 
-**📌 Future Enhancements**
-
-* Automate pipeline using EventBridge
-* Add incremental data loads
-* Create dashboards using Amazon QuickSight
-* Add CI/CD using GitHub Actions
 
