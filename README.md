@@ -33,39 +33,18 @@ AWS Lambda,
 
 **API**: YouTube Data API v3
 
-**📂 Project Structure**
 
-youtube-data-pipeline-aws/
+**🔄 Data Pipeline Explanation**
 
-│
-├── lambda/
+**1️⃣ Data Extraction (AWS Lambda)**
 
-│   ├── youtube_extract_lambda.py
+* Fetches video data from YouTube Data API
+  
+* Extracts fields like:
+video_id,
+ title,
+ published_at,
+ view_count,
+ like_count
 
-│   └── youtube_transform_lambda.py
-
-│
-
-├── glue/
-
-│   └── parquet_transformation.py
-
-│
-├── screenshots/
-
-│   ├── architecture.png
-
-│   ├── glue_job_success.png
-
-│   ├── s3_parquet_files.png
-
-│   └── athena_query_results.png
-
-│
-├── athena/
-
-│   └── sample_queries.sql
-
-│
-
-└── README.md
+* Stores raw data as JSON in Amazon S3
