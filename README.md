@@ -111,3 +111,6 @@ LIMIT 10;
 * Create dashboards using Amazon QuickSight
 * Add CI/CD using GitHub Actions
 
+<img width="1618" height="982" alt="image" src="https://github.com/user-attachments/assets/a754f3f4-4f62-4700-8f28-60e65bdfb136" />
+
+
