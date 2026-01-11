@@ -38,7 +38,7 @@ AWS Lambda,
 
 **🔄 Data Pipeline Explanation**
 
-**1️⃣ Data Extraction (AWS Lambda)**
+**1️.Data Extraction (AWS Lambda)**
 
 * Fetches video data from YouTube Data API
 * Extracts fields like:
@@ -49,14 +49,14 @@ video_id,
  like_count
 * Stores raw data as JSON in Amazon S3
 
-**2️⃣ Data Transformation (AWS Glue)**
+**2️. Data Transformation (AWS Glue)**
 
 * Reads raw JSON data from S3
 * Cleans and structures the data
 * Converts data into Parquet format
 * Writes optimized Parquet files back to S3
 
-**3️⃣ Analytics (Amazon Athena)**
+**3️. Analytics (Amazon Athena)**
 
 * Glue Data Catalog used for schema discovery
 * Athena queries run directly on Parquet files
