@@ -39,32 +39,25 @@ AWS Lambda,
 **1️⃣ Data Extraction (AWS Lambda)**
 
 * Fetches video data from YouTube Data API
-  
 * Extracts fields like:
 video_id,
  title,
  published_at,
  view_count,
  like_count
-
 * Stores raw data as JSON in Amazon S3
 
 **2️⃣ Data Transformation (AWS Glue)**
 
 * Reads raw JSON data from S3
-  
 * Cleans and structures the data
-  
 * Converts data into Parquet format
-  
 * Writes optimized Parquet files back to S3
 
 **3️⃣ Analytics (Amazon Athena)**
 
 * Glue Data Catalog used for schema discovery
-  
 * Athena queries run directly on Parquet files
-  
 * Example analytics:
  Top viewed videos,
  Most liked videos,
