@@ -75,3 +75,35 @@ FROM youtube_db.parquet_data
 ORDER BY view_count DESC
 LIMIT 10;
 
+
+**📊 Output**
+
+* Optimized Parquet files stored in S3
+* Fast, cost-efficient analytics using Athena
+* Query results visible in screenshots
+
+
+**🔐 Security & Best Practices**
+
+* IAM roles with least-privilege access
+* No credentials hard-coded
+* Environment variables used for secrets
+* Columnar storage (Parquet) for performance
+
+
+**🚀 Key Learnings**
+
+* Building serverless ETL pipelines
+* Handling semi-structured API data
+* Data transformation using Spark (Glue)
+* Analytics using Athena
+* Real-world AWS data engineering workflow
+
+
+**📌 Future Enhancements**
+
+* Automate pipeline using EventBridge
+* Add incremental data loads
+* Create dashboards using Amazon QuickSight
+* Add CI/CD using GitHub Actions
+
