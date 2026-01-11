@@ -80,7 +80,7 @@ ORDER BY view_count DESC
 LIMIT 10;
 
 
-** 📊 Dashboard (Amazon QuickSight)**
+**📊 Dashboard (Amazon QuickSight)**
 
 The final analytics layer is built using *Amazon QuickSight*, connected to Parquet data stored in Amazon S3 and queried via Amazon Athena.
 
