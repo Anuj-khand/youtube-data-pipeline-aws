@@ -32,3 +32,25 @@ AWS Lambda,
 **Data Format**: JSON → Parquet
 
 **API**: YouTube Data API v3
+
+**📂 Project Structure**
+
+youtube-data-pipeline-aws/
+│
+├── lambda/
+│   ├── youtube_extract_lambda.py
+│   └── youtube_transform_lambda.py
+│
+├── glue/
+│   └── parquet_transformation.py
+│
+├── screenshots/
+│   ├── architecture.png
+│   ├── glue_job_success.png
+│   ├── s3_parquet_files.png
+│   └── athena_query_results.png
+│
+├── athena/
+│   └── sample_queries.sql
+│
+└── README.md
