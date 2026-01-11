@@ -5,4 +5,5 @@ This project demonstrates an end-to-end data engineering pipeline built on AWS, 
 The goal of this project is to showcase real-world **ETL workflows**, serverless data processing, and analytics-ready data modeling.
 
 **🏗️ Architecture Overview**
+
 **High-level flow:**
