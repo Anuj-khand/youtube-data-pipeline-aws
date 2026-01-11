@@ -14,7 +14,10 @@ The goal of this project is to showcase real-world **ETL workflows**, serverless
 4. Convert processed data into Parquet
 5. Query data using Amazon Athena
 
-Architecture and execution screenshots are available in the screenshots folder.
+Architecture is as below:
+
+<img width="1618" height="982" alt="image" src="https://github.com/user-attachments/assets/425e6794-5fe1-4f24-985b-33937e0c6e9f" />
+
 
 
 **🧰 Tech Stack Used**
@@ -110,7 +113,4 @@ LIMIT 10;
 * Add incremental data loads
 * Create dashboards using Amazon QuickSight
 * Add CI/CD using GitHub Actions
-
-<img width="1618" height="982" alt="image" src="https://github.com/user-attachments/assets/a754f3f4-4f62-4700-8f28-60e65bdfb136" />
-
 
