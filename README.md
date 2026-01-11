@@ -66,6 +66,7 @@ video_id,
  Recent trending content
 
 
+
 **🧪 Sample Athena Query**
 
 SELECT title, view_count, like_count
@@ -83,12 +84,14 @@ LIMIT 10;
 * Query results visible in screenshots
 
 
+
 **🔐 Security & Best Practices**
 
 * IAM roles with least-privilege access
 * No credentials hard-coded
 * Environment variables used for secrets
 * Columnar storage (Parquet) for performance
+
 
 
 **🚀 Key Learnings**
@@ -98,6 +101,7 @@ LIMIT 10;
 * Data transformation using Spark (Glue)
 * Analytics using Athena
 * Real-world AWS data engineering workflow
+
 
 
 **📌 Future Enhancements**
