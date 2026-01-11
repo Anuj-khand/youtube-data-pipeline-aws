@@ -14,7 +14,7 @@ The goal of this project is to showcase real-world **ETL workflows**, serverless
 4. Convert processed data into Parquet
 5. Query data using Amazon Athena
 
-Architecture and execution screenshots are available in the screenshots/ folder.
+Architecture and execution screenshots are available in the screenshots folder.
 
 **🧰 Tech Stack Used**
 
@@ -48,3 +48,24 @@ video_id,
  like_count
 
 * Stores raw data as JSON in Amazon S3
+
+**2️⃣ Data Transformation (AWS Glue)**
+
+* Reads raw JSON data from S3
+  
+* Cleans and structures the data
+  
+* Converts data into Parquet format
+  
+* Writes optimized Parquet files back to S3
+
+**3️⃣ Analytics (Amazon Athena)**
+
+* Glue Data Catalog used for schema discovery
+  
+* Athena queries run directly on Parquet files
+  
+* Example analytics:
+ Top viewed videos,
+ Most liked videos,
+ Recent trending content
