@@ -19,13 +19,16 @@ Architecture and execution screenshots are available in the screenshots/ folder.
 **🧰 Tech Stack Used**
 
 **Programming Language**: Python
-**Cloud Platform**: AWS
-**Services**:
 
+**Cloud Platform**: AWS
+
+**Services**:
 AWS Lambda
 Amazon S3
 AWS Glue (Spark ETL)
 Amazon Athena
 AWS IAM
+
 **Data Format**: JSON → Parquet
+
 **API**: YouTube Data API v3
