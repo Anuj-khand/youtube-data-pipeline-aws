@@ -7,3 +7,9 @@ The goal of this project is to showcase real-world **ETL workflows**, serverless
 **🏗️ Architecture Overview**
 
 **High-level flow:**
+
+1. Extract YouTube video metadata using YouTube Data API
+2. Store raw JSON data in Amazon S3
+3. Trigger transformation to structured format
+4. Convert processed data into Parquet
+5. Query data using Amazon Athena
